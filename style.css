@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: "outfit", sans-serif;
+}
+
+.card {
+    background-color:hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 2rem;
+    margin: auto;
+    width: 270px;
+}
+
+.card .image-equilibrium img {
+    width: 100%;
+}
+
+.card .image-equilibrium img:hover {
+    cursor: pointer;
+    z-index: 10px;
+    opacity:0.8;
+ }
+
+.card .image-equilibrium .overlay{
+    position: absolute;
+    top: 40px;
+    width: 20%;
+    height: 41%;
+    background-color:hsl(178, 100%, 50%);
+    background-image: url("./images/icon-view.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity:0
+}
+
+
+
+.card-info h3 {
+    color: white;
+}
+
+.card-info h3:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card-info p {
+    color:hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.card-info .details{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid hsl(215, 51%, 70%);
+    padding-bottom: 20px;
+}
+
+.details .details-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.details .eth p {
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.card .card-footer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.card-footer img {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 10%;
+    
+}
+
+.card-footer p {
+    color: white;
+}
+
+.card-footer p:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.card-footer span {
+    color: hsl(215, 51%, 70%);
+    font-weight: 600
+}
